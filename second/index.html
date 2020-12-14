@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>Сайт-визитка</title>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="connect-type" content="text/html;charset=UTF-8"/>
+</head>
+<body>
+    <script>
+        var x = [1, 2, 3, "a", "b", "c"]; // инициализируем переменную, содержащую массив
+        var y = [undefined, null, 1, 2, 3, null]; // инициализируем переменную, содержащую массив
+        var a, b, c, d, e;
+        document.write("Массив чисел x: "+x +"<br>");
+        b = x.join(""); 
+        c = x.join(" "); 
+        d = x.join(" and ");
+        document.write("Массив чисел x c применением join: "+b+"<br>");
+        document.write("Массив чисел x c применением join: "+c +"<br>");
+        document.write("Массив чисел x c применением join: "+d +"<br>");
+        e=x.reverse();
+        document.write("Массив чисел x c применением reverse: "+e +"<br>");
+        function g(x, f) {
+        if (x > f) return 1;
+        if (x < f) return -1;
+        if (x == f) return 0;
+    }
+
+    f = x.sort(g);
+    document.write("Массив чисел x c применением sort: "+f +"<br>");
+    let code = 'alert("Выполнение eval")';
+    eval(code);
+    </script>
+</body>

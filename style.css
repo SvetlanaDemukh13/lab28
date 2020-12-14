@@ -1,0 +1,170 @@
+body{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*{
+    margin: 0;
+}
+div{
+    display: flex;
+}
+.first{
+    background: url(fon.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size:100%;
+    width: 100%;
+    height: 90vh;   
+    flex-direction: row;
+}
+.first div{
+    width: 50%;
+}
+.first .right{
+    margin: 100px 0 0 100px;
+    display: flex;
+    flex-direction: column;
+}
+.first .right div{
+    border-left: 5px solid black; /* Параметры линии */ 
+    padding-left: 10px; /* Расстояние от линии до текста */
+    width: 100%;
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 30px;
+}
+.first .left div{
+    width: 60%;
+    height: 88%;
+    margin: 40px 0 0 40px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+    -o-box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .5), 0 2px 3px rgba(0, 0, 0, .5);
+    border: 5px solid rgba(255, 255, 255, .1); 
+}
+img:hover {
+    transform: scale(1.1);
+} 
+.header {
+    width: 100%;
+    height: 10vh;
+}
+.header h2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-transform:uppercase;
+}
+.second{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px 150px;
+    justify-content: center;
+}
+.second div{
+    width: 30%;
+    flex-direction: column;
+    padding:10px;
+    border: 3px dashed black;
+    margin: 5px;
+}
+.second div h3{
+    font-size: 20px;
+    text-align: center;
+}
+.third{
+    display: flex;
+    flex-direction: row;
+    background: url(fon.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size:100%;
+}
+.third .one{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0 150px;
+    border-left: 2px solid black; /* Параметры линии */ 
+    padding-left: 10px;
+}
+.third .one div{
+    margin: 15px;
+}
+.third .two div{
+    margin: 15px;
+}
+.third .two{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 150px 0 20px;
+    border-left: 2px solid black; /* Параметры линии */ 
+    padding-left: 10px;
+}
+.fourth{
+    display: flex;
+    flex-direction: column;
+}
+.fourth div{
+    margin: 10px 150px;
+    
+}
+.fourth div p{
+    font-size: 30px;
+}
+.fourth a{
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    padding: 12px 40px;
+    margin: 10px 20px;
+    border-radius: 30px;
+    background-image: linear-gradient(45deg, #0a0c0e 0%, #565656 50%, #d5d5d5 100%);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+    box-shadow: 0 16px 32px 0 rgba(49, 50, 50, 0.35);
+    transition: .5s;
+}
+.fourth a:hover {
+    box-shadow: 0 0 0 0  rgba(49, 50, 50, 0.35);
+    background-position: 0 0;
+}
+.fifth{
+    background: url(fon.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size:100%;
+    width: 100%;
+    
+}
+.fifth .otstypi{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 10px 300px;
+}
+.fifth .otstypi div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+.fifth .otstypi div h3{
+    font-size: 25px;
+    text-align: center;
+}
+.fifth .otstypi div p{
+    font-size: 20px;
+}
